@@ -1,8 +1,22 @@
 {
   "environment": "UAT",
-  "catalog": "data_platform",
-  "schema": "dbo",
-  "bronze_layer": "bronze",
-  "silver_layer": "silver",
-  "gold_layer": "gold"
+  "catalog": "sales_uat",
+
+  "bronze_schema": "bronze",
+  "silver_schema": "silver",
+  "gold_schema": "gold",
+
+  "source_database": "salesdb",
+
+  "warehouse": "starter_wh",
+
+  "source_system": "SQL2022-SSEI-Expr",
+
+  "tables": [
+    "customers",
+    "products",
+    "orders",
+    "order_items",
+    "payments"
+  ]
 }
