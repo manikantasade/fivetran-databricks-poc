@@ -1,1 +1,8 @@
-
+{
+  "environment": "DEV",
+  "catalog": "data_platform",
+  "schema": "dbo",
+  "bronze_layer": "bronze",
+  "silver_layer": "silver",
+  "gold_layer": "gold"
+}
