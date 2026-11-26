@@ -1,16 +1,20 @@
 {
   "environment": "DEV",
+
+  "source_system": "SQL2022-SSEI-Expr",
+  "source_database": "salesdb",
+  "source_catalog": "workspace",
+  "source_schema": "dbo",
+
   "catalog": "sales_dev",
 
   "bronze_schema": "bronze",
   "silver_schema": "silver",
   "gold_schema": "gold",
-
-  "source_database": "salesdb",
+  "audit_schema": "audit",
+  "quarantine_schema": "quarantine",
 
   "warehouse": "starter_wh",
-
-  "source_system": "SQL2022-SSEI-Expr",
 
   "tables": [
     "customers",

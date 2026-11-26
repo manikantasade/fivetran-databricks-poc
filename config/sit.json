@@ -1,24 +1,20 @@
 {
   "environment": "SIT",
-  "catalog": "data_platform",
-  "schema": "dbo",
-  "bronze_layer": "bronze",
-  "silver_layer": "silver",
-  "gold_layer": "gold"
-}
-{
-  "environment": "SIT",
+
+  "source_system": "SQL2022-SSEI-Expr",
+  "source_database": "salesdb",
+  "source_catalog": "workspace",
+  "source_schema": "dbo",
+
   "catalog": "sales_sit",
 
   "bronze_schema": "bronze",
   "silver_schema": "silver",
   "gold_schema": "gold",
-
-  "source_database": "salesdb",
+  "audit_schema": "audit",
+  "quarantine_schema": "quarantine",
 
   "warehouse": "starter_wh",
-
-  "source_system": "SQL2022-SSEI-Expr",
 
   "tables": [
     "customers",
