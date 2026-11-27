@@ -1,0 +1,35 @@
+# Terraform local files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Credentials and secrets
+.databrickscfg
+.env
+.env.*
+*.pem
+*.key
+secrets.tfvars
+
+# Python generated files
+__pycache__/
+*.pyc
+.venv/
+
+# dbt generated files
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Terraform workspace state
+terraform.tfstate.d/
